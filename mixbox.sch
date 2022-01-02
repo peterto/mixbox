@@ -142,94 +142,6 @@ Wire Wire Line
 	6950 2000 6950 2400
 Wire Wire Line
 	7850 2000 7850 2400
-$Comp
-L Diode:1N4148W D1
-U 1 1 61D51748
-P 4350 1800
-F 0 "D1" V 4304 1880 50  0000 L CNN
-F 1 "1N4148W" V 4395 1880 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4350 1625 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 1800 50  0001 C CNN
-	1    4350 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148W D3
-U 1 1 61D59A7E
-P 5250 1800
-F 0 "D3" V 5204 1880 50  0000 L CNN
-F 1 "1N4148W" V 5295 1880 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 5250 1625 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5250 1800 50  0001 C CNN
-	1    5250 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148W D5
-U 1 1 61D5B610
-P 6150 1800
-F 0 "D5" V 6104 1880 50  0000 L CNN
-F 1 "1N4148W" V 6195 1880 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 6150 1625 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6150 1800 50  0001 C CNN
-	1    6150 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148W D7
-U 1 1 61D6085B
-P 7050 1800
-F 0 "D7" V 7004 1880 50  0000 L CNN
-F 1 "1N4148W" V 7095 1880 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 7050 1625 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7050 1800 50  0001 C CNN
-	1    7050 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148W D2
-U 1 1 61D61629
-P 4350 2200
-F 0 "D2" V 4304 2280 50  0000 L CNN
-F 1 "1N4148W" V 4395 2280 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4350 2025 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 2200 50  0001 C CNN
-	1    4350 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148W D4
-U 1 1 61D61F9D
-P 5250 2200
-F 0 "D4" V 5204 2280 50  0000 L CNN
-F 1 "1N4148W" V 5295 2280 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 5250 2025 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5250 2200 50  0001 C CNN
-	1    5250 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148W D6
-U 1 1 61D62A40
-P 6150 2200
-F 0 "D6" V 6104 2280 50  0000 L CNN
-F 1 "1N4148W" V 6195 2280 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 6150 2025 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6150 2200 50  0001 C CNN
-	1    6150 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148W D8
-U 1 1 61D6333D
-P 7050 2200
-F 0 "D8" V 7004 2280 50  0000 L CNN
-F 1 "1N4148W" V 7095 2280 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 7050 2025 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7050 2200 50  0001 C CNN
-	1    7050 2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4750 1950 4750 2000
 Wire Wire Line
@@ -244,14 +156,6 @@ Wire Wire Line
 	7050 1950 7450 1950
 Wire Wire Line
 	7450 1950 7450 2000
-Wire Wire Line
-	7050 1650 6150 1650
-Wire Wire Line
-	5250 1650 4350 1650
-Wire Wire Line
-	6150 1650 5250 1650
-Connection ~ 6150 1650
-Connection ~ 5250 1650
 Wire Wire Line
 	4350 2350 4750 2350
 Wire Wire Line
@@ -287,16 +191,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 2050 4350 2050
 Connection ~ 5200 2450
-Wire Wire Line
-	4350 1650 4350 1450
-Wire Wire Line
-	4350 1450 3450 1450
-Connection ~ 4350 1650
-Wire Wire Line
-	4300 2050 4300 1550
-Wire Wire Line
-	4300 1550 3450 1550
-Connection ~ 4300 2050
 $Comp
 L power:GND #PWR0101
 U 1 1 61DE0E08
@@ -312,20 +206,20 @@ Wire Wire Line
 	3450 1250 4150 1250
 Wire Wire Line
 	3450 1150 3550 1150
-Text GLabel 5150 2000 1    39   Input ~ 0
+Text GLabel 4400 3400 1    39   Input ~ 0
 COL0
 Text GLabel 3450 1650 2    39   Input ~ 0
 COL0
-Text GLabel 6050 2000 1    39   Input ~ 0
+Text GLabel 4550 3400 1    39   Input ~ 0
 COL1
 Text GLabel 3450 1750 2    39   Input ~ 0
 COL1
 Connection ~ 6100 2450
 Wire Wire Line
 	7000 2450 6100 2450
-Text GLabel 6950 2000 1    39   Input ~ 0
+Text GLabel 4700 3400 1    39   Input ~ 0
 COL2
-Text GLabel 7850 2000 1    39   Input ~ 0
+Text GLabel 4850 3400 1    39   Input ~ 0
 COL3
 Text GLabel 3450 1850 2    39   Input ~ 0
 COL2
@@ -363,8 +257,6 @@ F 3 "~" H 5600 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4300 2450 4300 2050
-Wire Wire Line
 	5800 3350 7850 3350
 Wire Wire Line
 	7850 3350 7850 2400
@@ -394,23 +286,15 @@ Wire Wire Line
 	5400 3550 5400 3100
 Wire Wire Line
 	5400 3100 4100 3100
-Wire Wire Line
-	4100 3100 4100 2050
-Wire Wire Line
-	4100 2050 3450 2050
 NoConn ~ 2250 1450
 NoConn ~ 2250 1550
 NoConn ~ 2250 1650
 NoConn ~ 2250 1750
 Wire Wire Line
-	5800 4250 5800 4050
-Wire Wire Line
 	5800 4050 7850 4050
 Wire Wire Line
 	7850 4050 7850 3350
 Connection ~ 7850 3350
-Wire Wire Line
-	5700 4250 5700 4000
 Wire Wire Line
 	5700 4000 6950 4000
 Wire Wire Line
@@ -424,16 +308,12 @@ Wire Wire Line
 	6050 3950 6050 3150
 Connection ~ 6050 3150
 Wire Wire Line
-	5500 4250 5500 4050
-Wire Wire Line
 	5500 4050 5150 4050
 Wire Wire Line
 	5150 4050 5150 3050
 Connection ~ 5150 3050
 Wire Wire Line
 	5400 4250 3450 4250
-Wire Wire Line
-	3450 4250 3450 2150
 Wire Wire Line
 	2250 1350 2000 1350
 Wire Wire Line
@@ -476,4 +356,160 @@ F 3 "~" H 1850 1200 50  0001 C CNN
 	1    1850 1200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Diode:1N4148W D1
+U 1 1 61D51748
+P 4350 1800
+F 0 "D1" V 4304 1880 50  0000 L CNN
+F 1 "1N4148W" V 4395 1880 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4350 1625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 1800 50  0001 C CNN
+	1    4350 1800
+	0    1    1    0   
+$EndComp
+Connection ~ 5250 1650
+Wire Wire Line
+	5250 1650 4350 1650
+$Comp
+L Diode:1N4148W D3
+U 1 1 61D59A7E
+P 5250 1800
+F 0 "D3" V 5204 1880 50  0000 L CNN
+F 1 "1N4148W" V 5295 1880 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5250 1625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5250 1800 50  0001 C CNN
+	1    5250 1800
+	0    1    1    0   
+$EndComp
+Connection ~ 6150 1650
+Wire Wire Line
+	6150 1650 5250 1650
+Wire Wire Line
+	7050 1650 6150 1650
+$Comp
+L Diode:1N4148W D5
+U 1 1 61D5B610
+P 6150 1800
+F 0 "D5" V 6104 1880 50  0000 L CNN
+F 1 "1N4148W" V 6195 1880 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6150 1625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6150 1800 50  0001 C CNN
+	1    6150 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D7
+U 1 1 61D6085B
+P 7050 1800
+F 0 "D7" V 7004 1880 50  0000 L CNN
+F 1 "1N4148W" V 7095 1880 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 7050 1625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7050 1800 50  0001 C CNN
+	1    7050 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D8
+U 1 1 61D6333D
+P 7050 2200
+F 0 "D8" V 7004 2280 50  0000 L CNN
+F 1 "1N4148W" V 7095 2280 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 7050 2025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7050 2200 50  0001 C CNN
+	1    7050 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D6
+U 1 1 61D62A40
+P 6150 2200
+F 0 "D6" V 6104 2280 50  0000 L CNN
+F 1 "1N4148W" V 6195 2280 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6150 2025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6150 2200 50  0001 C CNN
+	1    6150 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D4
+U 1 1 61D61F9D
+P 5250 2200
+F 0 "D4" V 5204 2280 50  0000 L CNN
+F 1 "1N4148W" V 5295 2280 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5250 2025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5250 2200 50  0001 C CNN
+	1    5250 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D2
+U 1 1 61D61629
+P 4350 2200
+F 0 "D2" V 4304 2280 50  0000 L CNN
+F 1 "1N4148W" V 4395 2280 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4350 2025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 2200 50  0001 C CNN
+	1    4350 2200
+	0    1    1    0   
+$EndComp
+Text GLabel 3450 1450 2    39   Input ~ 0
+ROW0
+Wire Wire Line
+	4350 1650 4150 1650
+Connection ~ 4350 1650
+Text GLabel 4150 1650 0    39   Input ~ 0
+ROW0
+Text GLabel 3450 1550 2    39   Input ~ 0
+ROW1
+Wire Wire Line
+	4300 2450 4300 2050
+Wire Wire Line
+	4300 2050 4150 2050
+Connection ~ 4300 2050
+Text GLabel 4150 2050 0    39   Input ~ 0
+ROW1
+Text GLabel 3450 2050 2    39   Input ~ 0
+ROW2
+Text GLabel 3450 2150 2    39   Input ~ 0
+ROW3
+Text GLabel 4100 3100 0    39   Input ~ 0
+ROW2
+Text GLabel 3450 4250 0    39   Input ~ 0
+ROW3
+Wire Wire Line
+	5500 4150 4400 4150
+Wire Wire Line
+	4400 4150 4400 3400
+Wire Wire Line
+	5500 4050 5500 4150
+Connection ~ 5500 4150
+Wire Wire Line
+	5500 4150 5500 4250
+Wire Wire Line
+	5600 4250 5550 4250
+Wire Wire Line
+	5550 4250 5550 4000
+Wire Wire Line
+	5550 4000 4550 4000
+Wire Wire Line
+	4550 4000 4550 3400
+Connection ~ 5600 4250
+Wire Wire Line
+	5700 3900 4700 3900
+Wire Wire Line
+	4700 3900 4700 3400
+Wire Wire Line
+	5700 3900 5700 4000
+Connection ~ 5700 4000
+Wire Wire Line
+	5700 4000 5700 4250
+Wire Wire Line
+	5800 3800 4850 3800
+Wire Wire Line
+	4850 3800 4850 3400
+Wire Wire Line
+	5800 3800 5800 4050
+Connection ~ 5800 4050
+Wire Wire Line
+	5800 4050 5800 4250
 $EndSCHEMATC
