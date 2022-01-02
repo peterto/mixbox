@@ -332,7 +332,6 @@ COL2
 Text GLabel 3450 1950 2    39   Input ~ 0
 COL3
 NoConn ~ 3450 1350
-NoConn ~ 3450 1050
 NoConn ~ 2250 1150
 NoConn ~ 2250 1050
 $Comp
@@ -358,18 +357,14 @@ F 3 "" H 1850 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2250 1350 1850 1350
-Wire Wire Line
-	2250 1250 1850 1250
-Wire Wire Line
 	1850 1250 1850 1200
 $Comp
-L Connector:Conn_01x06_Male J2
+L Connector:Conn_01x05_Male J2
 U 1 1 61CFB837
 P 5600 4450
 F 0 "J2" V 5400 4450 50  0000 C CNN
-F 1 "Conn_01x06_Male" V 5500 4450 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 5600 4450 50  0001 C CNN
+F 1 "Conn_01x05_Male" V 5500 4450 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 5600 4450 50  0001 C CNN
 F 3 "~" H 5600 4450 50  0001 C CNN
 	1    5600 4450
 	0    -1   -1   0   
@@ -461,4 +456,9 @@ Wire Wire Line
 	5400 4250 3450 4250
 Wire Wire Line
 	3450 4250 3450 2150
+Wire Wire Line
+	2250 1350 1850 1350
+Wire Wire Line
+	2250 1250 1850 1250
+NoConn ~ 3450 1050
 $EndSCHEMATC
